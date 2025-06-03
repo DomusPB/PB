@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Domus Manutenções e Instalações</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header, footer {
+      background-color: #20232a;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1rem 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #20232a;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .banner {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+    }
+    .whatsapp-btn {
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #25D366;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+    .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Domus Manutenções e Instalações</h1>
+    <p>Segurança, tecnologia e eficiência em um só lugar</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section>
+    <img src="./banner-home.jpg" alt="Banner Home" class="banner">
+    <h2 id="sobre">Sobre Nós</h2>
+    <p>A Domus oferece soluções completas em segurança eletrônica e instalações elétricas para residências e empresas em Campina Grande, João Pessoa e região. Com equipe especializada e equipamentos de alta tecnologia, garantimos segurança e qualidade.</p>
+  </section>
+
+  <section>
+    <h2 id="servicos">Serviços</h2>
+    <div class="grid grid-2">
+      <div><strong>CFTV</strong><br />Instalação de câmeras com acesso remoto</div>
+      <div><strong>Cerca Elétrica</strong><br />Proteção perimetral com alta durabilidade</div>
+      <div><strong>Automação de Portões</strong><br />Segurança e comodidade</div>
+      <div><strong>Alarme Monitorado</strong><br />Monitoramento 24h</div>
+      <div><strong>Controle de Acesso</strong><br />Soluções modernas para residências e empresas</div>
+      <div><strong>Manutenção Elétrica</strong><br />Residencial e predial com segurança</div>
+    </div>
+  </section>
+
+  <section>
+    <h2 id="portfolio">Portfólio</h2>
+    <img src="./banner-portfolio.jpg" alt="Projetos Domus" class="banner">
+    <p>Projetos realizados com excelência em Campina Grande, João Pessoa e região.</p>
+  </section>
+
+  <section>
+    <h2 id="depoimentos">Depoimentos</h2>
+    <blockquote>“Serviço rápido, bem feito e com preço justo. Recomendo a Domus!”</blockquote>
+    <blockquote>“Agora tenho muito mais segurança em casa, graças à instalação da cerca elétrica e câmeras.”</blockquote>
+  </section>
+
+  <section>
+    <h2 id="contato">Contato</h2>
+    <p>Solicite um orçamento sem compromisso:</p>
+    <a class="whatsapp-btn" href="https://wa.me/558386674118" target="_blank">Falar no WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Domus Manutenções e Instalações. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
